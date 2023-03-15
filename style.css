@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-fl {
+  padding: 4rem 6rem;
+}
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.text-blue {
+  color: blue;
+}
+/* above is universal */
+
+.menu {
+  height: 6vh;
+  /* background-color: rgb(146, 193, 235); */
+  align-items: center;
+  display: flex;
+}
+.left-menu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+  width: 40%;
+}
+.menu .left-menu li i {
+  margin-right: 30px;
+}
+.left-menu .logo {
+  display: flex;
+}
+.right-menu {
+  
+  gap: 4rem;
+  justify-content: flex-end;
+  display: flex;
+
+  width: 40%;
+}
+.menu-bar {
+  width: 10%;
+  
+}
+.menu-bar li i {
+/* margin-left: 2rem; */
+float: right;
+}
+.landing-page {
+    padding:50px;
+  /* background-color: antiquewhite; */
+}
+.landing-page .content1 {
+  text-align: center;
+}
+.landing-page .content1 .first-h1 {
+  text-align: left !important;
+  display: inline-block;
+  padding-top: 100px;
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+.landing-page .content1 .para1 {
+  text-align: center;
+}
+
+.landing-page .content1 p {
+  width: 43%;
+  text-align: left !important;
+  display: inline-block;
+  margin-bottom: 4rem;
+
+}
+.landing-page .content1 .btn1{
+   
+    width: 43%;
+    
+   
+    text-align: left !important;
+    display: inline-block;
+    /* margin-bottom: 4rem; */
+  
+}
+.landing-page .content1 .btn1 .button1{
+  background-color: blue;
+  color: white;
+    
+padding:20px 40px;
+border-radius: 2rem;
+}
+.landing-page .content2{
+    margin-right: 30px;
+    
+}
+
+.landing-page .content2 .social-links ul{
+   
+    display: flex;
+   
+    gap: 2rem;
+    margin-left: 100px;
+}
+.landing-page .content2 .social-links ul li{
+    font-size: 1.5rem;
+}
+.my-row{
+  display: flex;
+}
+/* first page ended */
+
+/* 2nd page css started */
+
+.services{
+  background-color: rgb(88, 88, 245);
+  color: white;
+}
+.services h1{
+  font-size: 3rem;
+}
+.services .my-row{
+  display: flex;
+  gap:2rem;
+ 
+}
+.services .my-row .mycol1{
+  width:25%;
+
+}
+.services .my-row .mycol2{
+  width:25%;
+
+}
+.services .my-row .mycol3{
+  width:25%;
+
+}
+.services .my-row .mycol1 .mycol2 .mycol3{
+  padding:30px;
+
+}
+
+.services .my-row h2{
+  font-size: 2.5rem;
+margin-bottom: 1.5rem;
+word-spacing: 1.5rem;
+}
+.services .my-row p{
+  text-justify:inter-word;
+  margin-bottom: 6rem;
+}
+
+.services .my-row hr{
+  width:26%;
+}
+/* 3rd page css started */
+.single-family{
+
+}
+
+.single-family .col1{
+  position: relative;
+  width:30%;
+}
+.single-family .col2{
+  width:70%;
+}
+.single-family .col1{
+ padding: 10rem 8rem ;
+}
+.single-family .col1 h1{
+  font-size:  3.5rem;
+  font-weight: 900;
+  margin-bottom: 5rem;
+ }
+.single-family .col1 h3{
+  font-size:  1.8rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+ }
+ .single-family .col1 p{
+width: 80%;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 3rem;
+
+ }
+ .single-family .col1 .btn2{
+  width: 70%;
+  padding: 1rem 5rem;
+  border: 3px solid blue;
+  color:blue ;
+  border-radius: 2rem;
+  background-color: transparent;
+ }
+
+.single-family .col2 img{
+ width:100%;
+ object-fit: cover;
+
+ }
+ .single-family .dot h5{ 
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 39.5%;
+  bottom: 3%;
+
+
+ }
+ .single-family .dot h5 i{ 
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 34.5%;
+    bottom: -149%;
+}
+
+
+
+
+
+
+
